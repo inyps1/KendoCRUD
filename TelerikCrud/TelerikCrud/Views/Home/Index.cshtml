@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div style="margin:10px;">
+    <input type="hidden" id="hdnId"/>
+    <input type="text" id="txtName"/>
+    <input type="button" class="btn btn-default" value="Submit" id="btnSubmit"/>
+</div>
+<div id="employeeGrid" style="margin-top:15px;padding:5px;"> </div>
+
+@section scripts{
+<script src="~/Scripts/Employee/employee.js"></script>
+    }
